@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/catalog.dart';
+import 'package:my_app/interaction.dart';
 import 'package:my_app/provider/cart.dart';
 import 'package:my_app/shopping_cart.dart';
 import 'package:provider/provider.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       // home: PageOne(),
       initialRoute: "/",
       routes: {
-        "/": (context) => Catalog(),
+        "/": (context) => Interaction(),
         "/second": (context) => ShoppingCart(),
       },
     );
